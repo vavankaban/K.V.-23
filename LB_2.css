@@ -1,0 +1,66 @@
+
+ul li:first-child {
+    font-weight: bold;
+  }
+  
+
+  nav ul li:last-child a {
+    color: red;
+  }
+  
+  input[disabled] {
+    background-color: gray;
+  }
+  
+  div > p {
+    font-weight: 600;
+  }
+  
+  a[href^="https"] {
+    color: green;
+  }
+  
+  input[type="text"] {
+    border: 1px solid blue;
+  }
+  
+  ul li:first-child,
+  ul li:last-child {
+    font-size: 24px;
+  }
+  
+  div p {
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"][checked] {
+    background-color: lightblue;
+  }
+  
+  li > a {
+    text-decoration: underline;
+  }
+  
+  ul li:nth-child(even) {
+    font-weight: bold;
+  }
+  
+  input[type="text"]:not([disabled]) {
+    background-color: gray;
+  }
+  
+  *:first-child > p {
+    font-size: 24px;
+  }
+  
+  .special + li {
+    text-decoration: line-through;
+  }
+  
+  p::first-letter {
+    font-size: 36px;
+  }
+  
+  a::after {
+    content: '↗';
+  }
