@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<linkrel="stylesheet" href=""C:\Users\kiril\Downloads\style_lb_3.css"">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style_lb_3.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style_lb_3.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>YouTube</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="#"><img src="logo.png" alt="Лого" /></a>
+    </div>
+    <div class="search-container">
+      <input type="text" name="" class="query" />
+    </div>
+    <div class="horizontal_menu">
+      <nav>
+        <ul>
+          <a href="#">Усі</a>
+          <a href="#">Ігри</a>
+          <a href="#">Музика</a>
+          <a href="#">Пряма трансляція</a>
+          <a href="#">Новини</a>
+          <a href="#">Пригодницький бойовик</a>
+          <a href="#">Образотворчі мистецтва</a>
+          <a href="#">Мультфільми</a>
+          <a href="#">Нещодавно завантажені</a>
+          <a href="#">Ви дивилися</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <sidebar>
+      <nav>
+        <ul class="menu-2">
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">YouTube Shorts</a></li>
+          <li><a href="#">Підписки</a></li>
+          <li><a href="#">YouTube Music</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="menu-3">
+          <li><a href="#">Бібліотека</a></li>
+          <li><a href="#">Історія</a></li>
+          <li><a href="#">Ваші відео</a></li>
+          <li><a href="#">Переглянути пізніше</a></li>
+          <li><a href="#">Завантаження</a></li>
+          <li><a href="#">my_songs</a></li>
+          <li><a href="#">Відео, які сподобалися</a></li>
+          <li><a href="#">Мої Відео</a></li>
+        </ul>
+      </nav>
+      <h1>Підписки</h1>
+      <nav>
+        <ul class="menu-4">
+          <li><a href="#">ФК "Динамо" Київ</a></li>
+          <li><a href="#">Peter Buka</a></li>
+          <li><a href="#">Andro-news.com</a></li>
+          <li><a href="#">AdMe</a></li>
+          <li><a href="#">Антон Птушкін</a></li>
+          <li><a href="#">Dude Perfect</a></li>
+        </ul>
+      </nav>
+      <h1>Що нового</h1>
+      <nav>
+        <ul class="menu-5">
+          <li><a href="#">Популярне</a></li>
+          <li><a href="#">Музика</a></li>
+          <li><a href="#">Фільми</a></li>
+          <li><a href="#">Ігри</a></li>
+          <li><a href="#">Новини</a></li>
+          <li><a href="#">Спорт</a></li>
+          <li><a href="#">Навчання</a></li>
+        </ul>
+      </nav>
+      <h1>Більше з YouTube</h1>
+      <nav>
+        <ul class="menu-6">
+          <li><a href="#">YouTube Studio</a></li>
+          <li><a href="#">YouTube Music</a></li>
+          <li><a href="#">YouTube Kids</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="menu-7">
+          <li><a href="#">Налаштування</a></li>
+          <li><a href="#">Історія скарг</a></li>
+          <li><a href="#">Довідка</a></li>
+          <li><a href="#">Надіслати відгук</a></li>
+        </ul>
+      </nav>
+    </sidebar>
+    <section>
+      <div class="main-content_1">
+        <div class="videos_1" data-text="Harry Styles - As It Was (Piano cover) by Peter Buka">
+          <video width="720" height="480" controls>
+            <source src="Harry Styles - As It Was (Piano cover) by Peter Buka.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="videos_1" data-text="Introducing Copilot in Windows 11, new AI tools, and more">
+          <video width="320" height="240" controls>
+            <source src="Windows 11.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="videos_1" data-text="DANCE MONKEY METRO STATION LONDON">
+          <video width="320" height="240" controls>
+            <source src="Dance Monkey.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="videos_1" data-text="Ногу Свело! - Украïна">
+          <video width="320" height="240" controls>
+            <source src="Ногу Свело! - Украïна.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="main-content_2">
+        <div class="videos_2" data-text="Season 3 Bloopers | House M.D.">
+          <video width="320" height="240" controls>
+            <source src="Season 3 Bloopers _ House M.D..mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="videos_2" data-text="Top 14 features in Android 14">
+          <video width="320" height="240" controls>
+            <source src="Top 14 features in Android 14.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="videos_2" data-text="Meet Google Pixel Watch 2">
+          <video width="320" height="240" controls>
+            <source src="Meet Google Pixel Watch 2.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="videos_2" data-text="ДИНАМО - ЧЕМПІОН УКРАЇНИ 2020-21!">
+          <video width="320" height="240" controls>
+            <source src="ДИНАМО - ЧЕМПІОН УКРАЇНИ 2020-21!.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="roots">
+      <p>
+        Про розділ Для преси<br />
+        Aвторські права<br />
+        Зв'язатися з нами<br />
+        Для авторів<br />
+        Для рекламодавців<br />
+        Для розробників<br />
+      </p>
+      <p>
+        Умови Конфіденційності<br />
+        Правила й безпека<br />
+        Як працює YouTube<br />
+        Спробувати нові функції
+      </p>
+      <p>&copy;2023 Google LLC</p>
+    </div>
+  </footer>
+</body>
+
+</html>

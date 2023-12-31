@@ -1,0 +1,159 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-container {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.query {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.horizontal_menu nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.horizontal_menu nav ul a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Sidebar styles */
+sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+/* Main Content styles */
+main {
+  display: flex;
+  padding: 20px;
+}
+
+main section {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+/* Video styles */
+.main-content_1,
+.main-content_2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Расстояние между видео */
+  padding: 20px;
+}
+
+.videos_1,
+.videos_2 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Задайте соотношение стоaрон видео (16:9) */
+  overflow: hidden;
+}
+
+.videos_1 video,
+.videos_2 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.roots {
+  display: flex;
+  justify-content: space-around;
+}
+
+.roots p {
+  margin-right: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .search-container {
+    margin: 10px 0;
+  }
+
+  .horizontal_menu nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .horizontal_menu nav ul a {
+    margin: 10px 0;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  main section {
+    margin-left: 0;
+  }
+}
